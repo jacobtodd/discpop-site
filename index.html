@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DiscPop Support</title>
+  <meta name="description" content="Help and support for DiscPop, the macOS menu bar app that ejects discs from your optical drive.">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>DiscPop</h1>
+      <p class="tagline">Eject the disc, keep the drive.</p>
+    </div>
+  </header>
+  <nav>
+    <a href="./" aria-current="page">Support</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </nav>
+
+  <p>DiscPop is a small menu bar app for Mac. It ejects the disc from your CD, DVD or Blu-ray drive, and only that disc. Your other drives are never touched.</p>
+
+  <div class="card">
+    <p><strong>Requirements:</strong> macOS 14 Sonoma or later, Apple silicon or Intel, and a CD, DVD or Blu-ray drive (USB or built-in).</p>
+  </div>
+
+  <h2>Using DiscPop</h2>
+  <p>Click the disc icon in your menu bar. You'll see your drive, its status and two buttons.</p>
+  <ul>
+    <li><strong>Eject Disc</strong> asks macOS to eject the disc safely. The drive stays connected.</li>
+    <li><strong>Open Tray</strong> appears instead when the drive is empty, and opens the tray so you can load a disc.</li>
+    <li><strong>Disconnect Drive</strong> ejects any disc and tells you when the drive is safe to unplug. macOS can't switch a USB drive off, so DiscPop never claims to.</li>
+  </ul>
+  <p>If you have more than one optical drive connected, choose the drive from the menu at the top of the window.</p>
+
+  <h2>Common questions</h2>
+
+  <h3>It says “Disc in Use”</h3>
+  <p>macOS declined to eject the disc because something is using it. That could be an app with a file from the disc open, a Finder window, or macOS briefly reading a disc you just inserted. Close the app or wait a few seconds, then try again. DiscPop never forces a disc out.</p>
+
+  <h3>A video player stopped when I ejected</h3>
+  <p>Some players, such as VLC, read DVDs in a way macOS doesn't count as “in use”, so the eject goes ahead. Stop playback before you eject.</p>
+
+  <h3>The tray won't close</h3>
+  <p>Many slim USB drives have a spring-loaded tray that can't close by itself. Push it gently until it clicks shut.</p>
+
+  <h3>My drive doesn't appear</h3>
+  <p>Check the cable, and try a different USB port or a powered hub, since some drives need more power. If the drive works in Finder but not in DiscPop, please contact us with your drive's make and model.</p>
+
+  <h3>Will DiscPop eject my other drives?</h3>
+  <p>No. DiscPop only acts on CDs, DVDs and Blu-ray discs in the optical drive you've selected. USB sticks, external hard drives and SSDs never appear in DiscPop.</p>
+
+  <h3>Can DiscPop burn, rip, play or change a drive's region?</h3>
+  <p>No. DiscPop only ejects discs and opens trays.</p>
+
+  <h2>Contact</h2>
+  <p>Email <a href="mailto:jacobtodd85@gmail.com">jacobtodd85@gmail.com</a>. Include your Mac model, macOS version and optical drive model if you can.</p>
+
+  <footer>© 2026 Jacob Todd · <a href="privacy.html">Privacy Policy</a></footer>
+</main>
+</body>
+</html>
